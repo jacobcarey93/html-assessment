@@ -1,0 +1,64 @@
+header {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+video {
+    height: 45vh;
+    width: 45vw;
+    margin-top: 10vh;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    left: 0;
+    bottom: 0;
+    background-color: navy;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-column {
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal-content {
+    height: 50vh;
+    width: 50vw;
+}
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content {
+    background-color: navy;
+    margin: 15% auto;
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
