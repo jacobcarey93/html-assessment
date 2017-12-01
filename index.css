@@ -9,11 +9,16 @@ header {
     align-items: center;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 video {
     height: 45vh;
     width: 45vw;
     margin-top: 10vh;
-    border: 2px solid black;
 }
 
 footer {
